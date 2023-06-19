@@ -1,0 +1,33 @@
+.footer{
+    &__nav{
+        margin-bottom: 74px;
+        margin-left: 80px;
+    }
+
+    &__ul{
+        display: flex;
+    }
+
+    &__li{
+        margin-right: 158px;
+    }
+
+    &__a{
+        color: var(--#{$prefix}color-gray-log);
+        text-transform: uppercase;
+        font-family: "Avenir";
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    &__social{
+        &::before {
+                content: "";
+                display: inline-block;
+                width: 100%;
+                height: 1px;
+                background: var(--#{$prefix}color-white-border);
+                margin-bottom: 53px;
+            }
+    }
+}

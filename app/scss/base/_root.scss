@@ -1,0 +1,14 @@
+:root{
+    --#{$prefix}font-avenir: #{$fontAvenir};
+    --#{$prefix}font-gilroy: #{$fontGilroy};
+    --#{$prefix}font-satoshi: #{$fontSatoshi};
+    --#{$prefix}color-white: #{$white};
+    --#{$prefix}color-black: #{$black};
+    --#{$prefix}color-orange: #{$orange};
+    --#{$prefix}color-gray: #{$gray};
+    --#{$prefix}color-gray: #{$whiteF9};
+    --#{$prefix}color-white-bg: #{$whiteBg};
+    --#{$prefix}color-gray-head: #{$grayHead};
+    --#{$prefix}color-white-border: #{$whiteBorder};
+    --#{$prefix}color-gray-log: #{$grayLog};
+}

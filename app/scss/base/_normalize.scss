@@ -21,7 +21,21 @@ li{
 }
 
 .wrapper{
+    padding-top: 41px;
+    padding-bottom: 127px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background: var(--#{$prefix}color-white-bg);
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main{
+    flex: 1 1 auto;
 }

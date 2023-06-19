@@ -37,3 +37,46 @@
     font-weight: 700;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Satoshi';
+    font-display: swap;
+    src: url("../../fonts/Satoshi-Bold.woff2");
+    src: local("O"), url("../../fonts/Satoshi-Bold.woff") format("woff"),
+        url("../../fonts/Satoshi-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+//======fonts
+
+$prefix: artem- !default;
+$fontAvenir: "Avenir";
+$fontGilroy: "Gilroy";
+$fontSatoshi: "Satoshi";
+
+$path: "../../images/";
+
+//=======colors
+
+$white: #fff;
+$black: #000;
+$orange: #EA7462;
+$gray: #FFE2D2;
+$whiteF9: #F9F9F9;
+$whiteBg: #F5F5F5;
+$grayHead: #5C5C5C;
+$whiteBorder: #E6E6E6;
+$grayLog: #080808;
+
+$colors : (
+    "white": $white,
+    "black": $black,
+    "orange": $orange,
+    "gray": $gray,
+    "whiteF9": $whiteF9,
+    "whiteBg": $whiteBg,
+    "grayHead": $grayHead,
+    "whiteBorder": $whiteBorder,
+    "grayLog": $grayLog,
+)!default;

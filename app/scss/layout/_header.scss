@@ -1,0 +1,85 @@
+.header{
+    font-family: "Avenir";
+    &__flex{
+        display: flex;
+    }
+
+    &__nav{
+        margin-right: auto;
+    }
+
+    &__ul{
+        display: flex;
+    }
+
+    &__li{
+        margin-right: 35px;
+
+        &_mr{
+            &::after{
+                content: "";
+                display: inline-block;
+                width: 14px;
+                height: 9px;
+                background: url(#{$path}vector.svg) no-repeat;
+                margin-left: 11px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__a{
+        font-weight: 800;
+        font-size: 19.4px;
+        color: var(--#{$prefix}color-gray-head);
+    }
+
+    &__btns{
+        margin-top: -12px;
+    }
+    
+    &__log{
+        padding: 11px 27px;
+        background: var(--#{$prefix}color-white);
+        border: 1.38px solid var(--#{$prefix}color-white-border);
+        border-radius: 5.54894px;
+        margin-right: 22px;
+        cursor: pointer;
+        
+        &-a{
+            font-family: "Avenir";
+            font-size: 19.4px;
+            font-weight: 800;
+            color: var(--#{$prefix}color-gray-log);
+        }
+    }
+
+    &__sign{
+        padding: 11.1px 61.04px 11.1px 27.74px;
+        background: var(--#{$prefix}color-orange);
+        border: none;
+        border-radius: 5.54894px;
+        cursor: pointer;
+
+        &-a{
+            position: relative;
+            font-family: "Avenir";
+            font-weight: 800;
+            font-size: 19.4px;
+            color: var(--#{$prefix}color-white);
+            
+            &::after{
+                content: "";
+                position: absolute;
+                right: -35px;
+                top: 50%;
+                transform: translateY(-50%);
+                background: url(#{$path}arr.svg) no-repeat;
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                // margin-left: 11.1px;
+            }
+        }
+    }
+}
