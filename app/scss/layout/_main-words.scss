@@ -1,0 +1,13 @@
+.main-words{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 54px;
+    &__h1{
+        width: 683px;
+        font-family: 'Avenir';
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 65px;
+        text-align: center;
+    }
+}
