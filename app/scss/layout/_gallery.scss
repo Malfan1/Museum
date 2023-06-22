@@ -145,24 +145,47 @@
             position: relative;
             margin-left: -92px;
             @include afterOpacity;
-
-            &-h2{
-                text-transform: uppercase;
-                font-size: 26.8px;
-                font-family: Avenir;
-                font-weight: 500;
-                color: var(--#{$prefix}color-white);
-            }
         }
-
+        
         &_ninth{
             grid-column: 3/5;
         }
     }
-
+    
+    &__h2{
+        position: absolute;
+        color: var(--#{$prefix}color-white);
+        z-index: 2;
+        font-size: 26.8px;
+        font-family: Avenir;
+        font-weight: 500;
+        letter-spacing: 1.072px;
+        text-transform: uppercase;
+        
+    }
+    
     &__wrapper{
         width: 100%;
         height: 100%;
+
+        &-words{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 26.8px 33px 37px 30px;
+        }
+    }
+
+    &__p{
+        position: absolute;
+        font-size: 17.867px;
+        font-family: Avenir;
+        line-height: 150%;
+        color: var(--#{$prefix}color-white);
+        z-index: 3;
+        margin-top: 130px;
     }
     
     &__f{

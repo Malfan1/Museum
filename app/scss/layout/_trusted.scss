@@ -1,0 +1,61 @@
+.trusted{
+    margin-bottom: 252px;
+    &__h2{
+        text-align: center;
+        font-size: 50px;
+        font-family: Avenir;
+        line-height: 32px;
+        letter-spacing: -1px;
+        font-weight: 500;
+        color: var(--#{$prefix}color-dark-blue);
+        margin-bottom: 63px;
+
+        &-sec{
+            color: var(--#{$prefix}color-dark-blue);
+            font-size: 52.633px;
+            font-family: Satoshi;
+            font-weight: 700;
+            line-height: 61.406px;
+            letter-spacing: -1.053px;
+        }
+    }
+
+    &__flex-foto{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 160px;
+        width: 1020px;
+    }
+
+    &__team{
+       padding-inline: 49px;
+    }
+
+    &__head{
+        padding-left: 24px;
+        margin-bottom: 60px;
+    }
+
+    &__p{
+        color: var(--#{$prefix}color-gray-tr);
+        font-size: 15.351px;
+        font-family: Satoshi;
+        font-weight: 700;
+        letter-spacing: 1.228px;
+        text-transform: uppercase;
+        margin-bottom: 8.7px;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card{
+        border-radius: 17.5px;
+        width: 360.074px;
+        height: 444.094px;
+        background: var(--#{$prefix}color-white-f3);
+    }
+}
