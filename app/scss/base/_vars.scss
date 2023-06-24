@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
 @font-face {
     font-family: 'Avenir';
     font-display: swap;
@@ -74,6 +76,8 @@ $prefix: artem- !default;
 $fontAvenir: "Avenir";
 $fontGilroy: "Gilroy";
 $fontSatoshi: "Satoshi";
+$fontInter: "Inter";
+$fontOpenSans: "Open Sans";
 
 $path: "../../images/";
 
@@ -95,8 +99,12 @@ $darkBlue: #160042;
 $grayTr: #6B7094;
 $whiteF3: #cbd1e3;
 $darkBlue28: #282556;
+$black07: #07090D;
+$whiteE7: #c5c7c9;
+$gray4F: #4F4F4F;
+$lightOrange: #FFE2D2;
 
-$colors : (
+$colors :(
     "white": $white,
     "black": $black,
     "orange": $orange,
@@ -113,4 +121,8 @@ $colors : (
     "whiteF3": $whiteF3,
     "grayE4": $grayE4,
     "darkBlue28": $darkBlue28,
+    "black07": $black07,
+    "whiteE7": $whiteE7,
+    "gray4F": $gray4F,
+    "lightOrange": $lightOrange,
 )!default;

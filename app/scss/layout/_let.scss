@@ -1,0 +1,86 @@
+.let{
+    margin-bottom: 354px;
+    font-family: var(--#{$prefix}font-gilroy);
+
+    &__flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__head{
+        margin-bottom: 80.5px;
+    }
+
+    &__h2{
+        font-size: 44.602px;
+        font-weight: 700;
+        text-align: center;
+
+        &-under{
+            font-size: 22.301px;
+            color: var(--#{$prefix}color-gray-4f);
+        }
+
+        &-box{
+            font-size: 22.301px;
+            font-weight: 700;
+            margin-bottom: 31.6px;
+        }
+    }
+
+    &__cards{
+        position: relative;
+        display: flex;
+        margin: auto;
+
+        &::before{
+            content: "";
+            position: absolute;
+            width: 164.558px;
+            height: 30.817px;
+            top: 25%;
+            left: 20%;
+            transform: rotate(-2.058deg);
+            background: url(#{$path}arr-v-down.svg) no-repeat;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 161.558px;
+            height: 58.817px;
+            top: 53%;
+            right: 26%;
+            transform: rotate(-2.058deg);
+            background: url(#{$path}arr-v-up.svg) no-repeat;
+        }
+    }
+
+    &__card{
+        padding: 36px 40px;
+        width: 300px;
+        margin-right: 143px;
+
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+
+    &__box{
+        border-radius: 18.584px;
+        display: inline-block;
+        background: var(--#{$prefix}color-light-orange);
+        padding: 32.5px;
+        margin-bottom: 43.6px;
+    }
+
+    &__svg{
+    }
+
+    &__p{
+        color: var(--#{$prefix}color-gray-4f);
+        font-size: 14.867px;
+        line-height: 150%;
+    }
+}

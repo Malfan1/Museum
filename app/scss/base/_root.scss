@@ -2,6 +2,8 @@
     --#{$prefix}font-avenir: #{$fontAvenir};
     --#{$prefix}font-gilroy: #{$fontGilroy};
     --#{$prefix}font-satoshi: #{$fontSatoshi};
+    --#{$prefix}font-inter: #{$fontInter};
+    --#{$prefix}font-open-sans: #{$fontOpenSans};
     --#{$prefix}color-white: #{$white};
     --#{$prefix}color-black: #{$black};
     --#{$prefix}color-orange: #{$orange};
@@ -19,4 +21,8 @@
     --#{$prefix}color-white-f3: #{$whiteF3};
     --#{$prefix}color-gray-e4: #{$grayE4};
     --#{$prefix}color-dark-blue-28: #{$darkBlue28};
+    --#{$prefix}color-black-07: #{$black07};
+    --#{$prefix}color-white-e7: #{$whiteE7};
+    --#{$prefix}color-gray-4f: #{$gray4F};
+    --#{$prefix}color-light-orange: #{$lightOrange};
 }
