@@ -1,4 +1,4 @@
-@mixin afterOpacity{
+@mixin afterOpacity(){
     &::after {
             content: "";
             width: 100%;
@@ -8,4 +8,15 @@
             left: 0;
             background-color: rgba(0, 0, 0, 0.5);
         }
+}
+
+@mixin afterBeforeForSlider(){
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(272deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    top: 0;
+    @content;
 }

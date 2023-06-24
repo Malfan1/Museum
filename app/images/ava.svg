@@ -1,0 +1,10 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Avatar Image Circle/06">
+<path id="Ellipse 96" d="M53.75 26.7273C53.75 37.0731 47.8716 46.0461 39.2727 50.4882C35.603 52.384 31.4379 53.4545 27.0227 53.4545C22.6075 53.4545 18.4424 52.384 14.7727 50.4882C6.17379 46.0461 0.295441 37.0731 0.295441 26.7273C0.295441 11.9662 12.2616 0 27.0227 0C41.7838 0 53.75 11.9662 53.75 26.7273Z" fill="#F3F5FB"/>
+<mask id="mask0_4_1027" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="54" height="54">
+<circle id="Ellipse 97" cx="27.0227" cy="26.7273" r="26.7273" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_4_1027)">
+</g>
+</g>
+</svg>

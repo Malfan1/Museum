@@ -1,0 +1,87 @@
+.slider{
+    position: relative;
+    margin-bottom: 282px;
+    &__head{
+        padding-inline: 73px;
+        margin-bottom: 123px;
+    }
+
+    &__left{
+        font-family: "Satoshi";
+        font-weight: 700;
+        color: var(--#{$prefix}color-dark-blue);
+        
+    }
+    
+    &__p{
+        font-size: 14px;
+        letter-spacing: 1.12px;
+        text-transform: uppercase;
+    }
+
+    &__h2{
+        font-size: 48px;
+        letter-spacing: -0.96px;
+    }
+
+    &__blocks{
+        position: relative;
+        &::before {
+            @include afterBeforeForSlider;
+            left: 0;
+        }
+        &::after{
+            @include afterBeforeForSlider;
+            right: 0;
+        }
+    }
+
+    &__block{
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    &__stars{
+        display: flex;
+        margin-bottom: 17px;
+    }
+
+    &__block-p{
+        font-size: 15.591px;
+        font-family: "Inter";
+        line-height: 26.727px;
+        letter-spacing: -0.1px;
+        color: var(--#{$prefix}color-dark-blue-28);
+        margin-bottom: 44.5px;
+    }
+
+    &__circle{
+        width: 53.5px;
+        height: 53.5px;
+        border-radius: 100%;
+        background: var(--#{$prefix}color-white-f3);
+        margin-right: 17.8px;
+    }
+
+    &__flex{
+        display: flex;
+    }
+
+    &__hh{
+        color: var(--#{$prefix}color-dark-blue);
+        font-family: "Inter";
+        &-pname{
+            font-size: 17.818px;
+            font-weight: 500;
+            line-height: 26.727px;
+            letter-spacing: -0.535px;
+        }
+
+        &-pcomp{
+            font-size: 15.591px;
+            font-family: Inter;
+            line-height: 26.727px;
+            letter-spacing: -0.156px;
+        }
+    }
+}

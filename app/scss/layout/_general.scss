@@ -1,0 +1,25 @@
+.slick{
+    position: relative;
+    &-arrow{
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        margin-top: -175px;
+        padding: 18px;
+        font-size: 0;
+        cursor: pointer;
+    }
+    
+    &-prev{
+        border: 1px solid var(--#{$prefix}color-gray-e4);
+        margin-right: 60px;
+        background: url(#{$path}prev.svg) 0 0/100% no-repeat;
+    }
+
+    &-next{
+        padding: 18.5px;
+        border: none;
+        background: var(--#{$prefix}color-orange-e3) url(#{$path}next.svg) 0 0/100% no-repeat;
+    }
+}

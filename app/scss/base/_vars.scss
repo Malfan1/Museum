@@ -48,6 +48,26 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Inter';
+    font-display: swap;
+    src: url("../../fonts/Inter-Regular.woff2");
+    src: local("O"), url("../../fonts/Inter-Regular.woff") format("woff"),
+        url("../../fonts/Inter-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-display: swap;
+    src: url("../../fonts/Inter-Medium.woff2");
+    src: local("O"), url("../../fonts/Inter-Medium.woff") format("woff"),
+        url("../../fonts/Inter-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
 //======fonts
 
 $prefix: artem- !default;
@@ -70,9 +90,11 @@ $whiteBorder: #E6E6E6;
 $grayLog: #080808;
 $orangeE3:#E36F2D;
 $grayE5: #E5e5e5;
+$grayE4: #E4E6F1;
 $darkBlue: #160042;
 $grayTr: #6B7094;
 $whiteF3: #cbd1e3;
+$darkBlue28: #282556;
 
 $colors : (
     "white": $white,
@@ -89,4 +111,6 @@ $colors : (
     "darkBlue": $darkBlue,
     "grayTr": $grayTr,
     "whiteF3": $whiteF3,
+    "grayE4": $grayE4,
+    "darkBlue28": $darkBlue28,
 )!default;
