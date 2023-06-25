@@ -86,10 +86,12 @@ $path: "../../images/";
 $white: #fff;
 $black: #000;
 $orange: #EA7462;
+$orangeHover: #d8614f;
 $gray: #FFE2D2;
 $whiteF9: #F9F9F9;
 $whiteBg: #F5F5F5;
 $grayHead: #5C5C5C;
+$grayHeadHover: #3e3c3c;
 $whiteBorder: #E6E6E6;
 $grayLog: #080808;
 $orangeE3:#E36F2D;
@@ -103,6 +105,8 @@ $black07: #07090D;
 $whiteE7: #c5c7c9;
 $gray4F: #4F4F4F;
 $lightOrange: #FFE2D2;
+$gray1F: #1F2937;
+$gray37: #374151;
 
 $colors :(
     "white": $white,
@@ -125,4 +129,8 @@ $colors :(
     "whiteE7": $whiteE7,
     "gray4F": $gray4F,
     "lightOrange": $lightOrange,
+    "gray1F": $gray1F,
+    "gray37": $gray37,
+    "grayHeadHover": grayHeadHover,
+    "orangeHover": $orangeHover,
 )!default;

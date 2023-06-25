@@ -33,6 +33,10 @@
         font-weight: 800;
         font-size: 19.4px;
         color: var(--#{$prefix}color-gray-head);
+
+        &:hover{
+            color: var(--#{$prefix}color-gray-head-hover);
+        }
     }
 
     &__btns{
@@ -53,6 +57,10 @@
             font-weight: 800;
             color: var(--#{$prefix}color-gray-log);
         }
+
+        &:hover{
+            background: var(--#{$prefix}color-gray-cd);
+        }
     }
 
     &__sign{
@@ -61,6 +69,10 @@
         border: none;
         border-radius: 5.54894px;
         cursor: pointer;
+
+        &:hover{
+            background: var(--#{$prefix}color-orange-hover);
+        }
 
         &-a{
             position: relative;

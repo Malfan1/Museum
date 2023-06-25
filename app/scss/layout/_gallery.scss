@@ -69,6 +69,10 @@
     &__a{
         color: var(--#{$prefix}color-black);
         letter-spacing: 0.04em;
+
+        &:hover{
+            color: var(--#{$prefix}color-orange-e3);
+        }
     }
 
     &__main{
